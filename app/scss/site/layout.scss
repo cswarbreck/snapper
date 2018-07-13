@@ -1,43 +1,12 @@
+$purple: rgb(71, 38, 129);
+
 body {
     background-color: rgb(194, 194, 194);
-    font: 300 14px/18px Roboto;
-    
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;  
 }
-
-h3{
-  color: white !important;
-}
-
-h1, h2, h4, h5{
-  color: rgb(47, 10, 133) !important;
-}
-  
-  *,
-  :after,
-  :before {
-    box-sizing: border-box;
-    
-   .fas .fa-chevron-left{
-      color: white !important
-    }
-  }
-  
-/*   .clearfix:after,
-  .clearfix:before {
-    content: '';
-    display: table
-  }
-  
-  .clearfix:after {
-    clear: both;
-    display: block
-  } */
-  
-  .muck-up {
-    max-width: 750px !important;
-    width: 750px !important;
+  .mockup { 
+    max-width: 750px;
+    width: 750px;
     max-height: 1304px;
     height: 1304px;
     margin: auto;
@@ -52,160 +21,51 @@ h1, h2, h4, h5{
       color: #fff;
       background: url(https://media.fromthegrapevine.com/assets/images/2016/11/steve-jobs.jpg.824x0_q71.jpg);
       background-position: top left;
-      
       background-repeat: no-repeat;
       background-size: cover;
+      .nav h3 {
+        margin-top: 60px;
+      }
+    }
+    .bottom {
+      background-color: #fff;
+      min-height: 900px;
+      height: 900px;
+      z-index: 1;
+      padding: 49px;
+      position: relative;
+      color: $purple;
+      padding-top: 0px;
+      h1{
+        font-size: 4rem;
+        font-weight: 900;
+      }
+      h2{
+        font-size: 3rem;
+        font-weight: 300;
+      }
+      h3{
+        font-size: 2.2rem;
+        font-weight: 900;
+      }
+      h4{
+        font-size: 1.6rem;
+        font-weight: 900;
+      }
     }
   }
   
-/*   .muck-up > .top {
-    position: relative;
-    min-height: 404px;
-    height: 404;
-    padding: 15px;
-    color: #fff;
-    background: url(https://media.fromthegrapevine.com/assets/images/2016/11/steve-jobs.jpg.824x0_q71.jpg);
-    background-position: top left;
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
-  
-/*   .top .nav span {
-    float: left;
-    display: block;
-    
-  } */
-  
-  .nav h3 {
-    margin-top: 83px;
-  }
-  
-  
-/*   .filter-btn {
-    position: absolute;
-    z-index: 2;
-    right: 0;
-    width: 40px;
-    height: 40px;
-    transition: all 0.4s ease-in-out 0s;
-    span {
-        width: 40px;
-        height: 45px;
-        top: 60px;
-        display: block;
-        position: absolute;
-        right: 60px;
-        text-align: center;
-        color: rgb(47, 10, 133);
-        line-height: 40px;
-        border-radius: 50%;
-        font-size: 44px;
-        letter-spacing: 5px;
-        z-index: 999;
-      }
-  }
+
   
 
+  
+  
 
-  .filter-btn a {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    right: 60px;
-    display: block;
-    top: -46px;
-    color: #fff;
-    z-index: 99;
-    font-size: 22px;
-    transition: all .4s cubic-bezier(.68, 1, .265, 1)
-  }
   
-  .filter-btn:after {
-    height: 170px;
-    width: 170px;
-    content: '"\f38b"';
-    background-color: #FA396B;
-    position: absolute;
-    top: -110px;
-    right: -40px;
-    border-radius: 50%;
-    transform: scale(0);
-    transition: all 0.3s ease-in-out 0s;
-  } */
+
   
-/*   .filter-btn.open span.toggle-btn.ion-android-funnel {
-    background-color: #DE3963;
-  }
+
   
-  .filter-btn.open .ion-android-funnel:before {
-    content: "\f2d7";
-  }
-  
-  .open:after {
-    transform: scale(1);
-  }
-  
-  .filter-btn.open a:nth-child(1) {
-    transform: translate(9px, -62px);
-  }
-  
-  .filter-btn.open a:nth-child(2) {
-    transform: translate(-50px, -34px);
-  }
-  
-  .filter-btn.open a:nth-child(3) {
-    transform: translate(-56px, 25px);
-  }
-  
-  .filter-btn.open a:nth-child(4) {
-    transform: translate(5px, 61px);
-  } */
-  
-  .muck-up .bottom {
-    background-color: #fff;
-    min-height: 900px;
-    height: 900px;
-    z-index: 1;
-    padding: 49px;
-    position: relative;
-    color: #222;
-    padding-top: 0px;
-  }
-  
-/*   .bottom:after {
-    content: '';
-    position: absolute;
-    top: -46px;
-    background: #fff;
-    
-    left: -0.81rem;
-    height: 100px;
-    border-radius: 3rem;
-    width: 21rem;
-    z-index: -1;
-  } */
-  
-/*   .bottom .title {
-    margin-bottom: 20px;
-  }
-  
-  .bottom .title h3 {
-    font-size: 22px;
-    margin-bottom: 5px;
-  }
-  
-  .title small {
-    font-size: 10px;
-    color: #888;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  } */
-  
-  .line-break{
-      border-bottom: 2px solid rgb(47, 10, 133) !important;
-  }
+
 
 
