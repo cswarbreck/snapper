@@ -24,7 +24,7 @@ h1, h2, h4, h5{
     }
   }
   
-  .clearfix:after,
+/*   .clearfix:after,
   .clearfix:before {
     content: '';
     display: table
@@ -33,7 +33,7 @@ h1, h2, h4, h5{
   .clearfix:after {
     clear: both;
     display: block
-  }
+  } */
   
   .muck-up {
     max-width: 750px !important;
@@ -44,9 +44,21 @@ h1, h2, h4, h5{
     position: relative;
     overflow: hidden;
     background-color: black;
+    .top {
+      position: relative;
+      min-height: 404px;
+      height: 404;
+      padding: 15px;
+      color: #fff;
+      background: url(https://media.fromthegrapevine.com/assets/images/2016/11/steve-jobs.jpg.824x0_q71.jpg);
+      background-position: top left;
+      
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
   
-  .muck-up > .top {
+/*   .muck-up > .top {
     position: relative;
     min-height: 404px;
     height: 404;
@@ -57,20 +69,20 @@ h1, h2, h4, h5{
     
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
   
-  .top .nav span {
+/*   .top .nav span {
     float: left;
     display: block;
     
-  }
+  } */
   
   .nav h3 {
     margin-top: 83px;
   }
   
   
-  .filter-btn {
+/*   .filter-btn {
     position: absolute;
     z-index: 2;
     right: 0;
@@ -122,9 +134,9 @@ h1, h2, h4, h5{
     border-radius: 50%;
     transform: scale(0);
     transition: all 0.3s ease-in-out 0s;
-  }
+  } */
   
-  .filter-btn.open span.toggle-btn.ion-android-funnel {
+/*   .filter-btn.open span.toggle-btn.ion-android-funnel {
     background-color: #DE3963;
   }
   
@@ -150,7 +162,7 @@ h1, h2, h4, h5{
   
   .filter-btn.open a:nth-child(4) {
     transform: translate(5px, 61px);
-  }
+  } */
   
   .muck-up .bottom {
     background-color: #fff;
@@ -176,7 +188,7 @@ h1, h2, h4, h5{
     z-index: -1;
   } */
   
-  .bottom .title {
+/*   .bottom .title {
     margin-bottom: 20px;
   }
   
@@ -190,7 +202,7 @@ h1, h2, h4, h5{
     color: #888;
     text-transform: uppercase;
     letter-spacing: 1px;
-  }
+  } */
   
   .line-break{
       border-bottom: 2px solid rgb(47, 10, 133) !important;
