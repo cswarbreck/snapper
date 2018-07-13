@@ -1,17 +1,27 @@
 body {
     background-color: rgb(194, 194, 194);
     font: 300 14px/18px Roboto;
-    color: rgb(47, 10, 133) !important;
+    
+    font-family: 'Roboto', sans-serif;
     
 }
 
+h3{
+  color: white !important;
+}
 
-
+h1, h2, h4, h5{
+  color: rgb(47, 10, 133) !important;
+}
   
   *,
   :after,
   :before {
-    box-sizing: border-box
+    box-sizing: border-box;
+    
+   .fas .fa-chevron-left{
+      color: white !important
+    }
   }
   
   .clearfix:after,
@@ -26,10 +36,11 @@ body {
   }
   
   .muck-up {
-    max-width: 320px !important;
-    min-width: 319px !important;
-    height: 545px;
-    margin: 5em auto;
+    max-width: 750px !important;
+    width: 750px !important;
+    max-height: 1304px;
+    height: 1304px;
+    margin: auto;
     position: relative;
     overflow: hidden;
     background-color: black;
@@ -37,7 +48,8 @@ body {
   
   .muck-up > .top {
     position: relative;
-    min-height: 240px;
+    min-height: 404px;
+    height: 404;
     padding: 15px;
     color: #fff;
     background: url(https://media.fromthegrapevine.com/assets/images/2016/11/steve-jobs.jpg.824x0_q71.jpg);
@@ -53,12 +65,8 @@ body {
     
   }
   
-  .nav p {
-    margin-top: 1rem;
-    display: inline-block;
-    float: left;
-    vertical-align: bottom;
-    height: 2rem;
+  .nav h3 {
+    margin-top: 83px;
   }
   
   
@@ -72,15 +80,16 @@ body {
     span {
         width: 40px;
         height: 45px;
-        top: 20px;
+        top: 60px;
         display: block;
         position: absolute;
-        right: 25px;
+        right: 60px;
         text-align: center;
         color: rgb(47, 10, 133);
         line-height: 40px;
         border-radius: 50%;
-        font-size: 22px;
+        font-size: 44px;
+        letter-spacing: 5px;
         z-index: 999;
       }
   }
@@ -93,7 +102,7 @@ body {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    right: 25px;
+    right: 60px;
     display: block;
     top: -46px;
     color: #fff;
@@ -145,9 +154,10 @@ body {
   
   .muck-up .bottom {
     background-color: #fff;
-    min-height: 303px;
+    min-height: 900px;
+    height: 900px;
     z-index: 1;
-    padding: 20px;
+    padding: 49px;
     position: relative;
     color: #222;
     padding-top: 0px;
@@ -183,7 +193,7 @@ body {
   }
   
   .line-break{
-      border: 2px solid purple;
+      border-bottom: 2px solid rgb(47, 10, 133) !important;
   }
 
 
